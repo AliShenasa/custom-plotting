@@ -5,7 +5,7 @@ import numpy as np
 class Swarm:
     LEFT = 0
     RIGHT = 1
-#     RADIUS = 0.7
+    # RADIUS = 0.7
 
     def __init__(self, yList, panel, center, width, xmin, xmax, ymin, ymax, panelWidth, panelHeight, pointsize):
         self.yList = yList
